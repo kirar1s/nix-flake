@@ -9,7 +9,7 @@
     useGlobalPkgs = true;
     useUserPackages = true;
     users.alice = _: {
-      home.stateVersion = "23.05";
+      home.stateVersion = "24.11";
       wayland.windowManager.hyprland = {
         enable = true;
         # Makes xremap auto-start with hyprland
